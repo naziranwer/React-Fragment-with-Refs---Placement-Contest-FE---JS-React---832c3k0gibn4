@@ -16,6 +16,7 @@ const App = () => {
       setList((prev) => [...prev, i]);
     }
     setValue('')
+    inputRef.current.focus();
   };
 
 
